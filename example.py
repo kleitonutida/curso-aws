@@ -1,16 +1,7 @@
-# from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
 import os
 import datetime
-# chrome_options = Options()
-# chrome_options.add_argument('--log-level=0')
-# chrome_options.add_argument("--headless")
-# chrome_options.add_argument("--window-size=1920x1080")
-# chrome_driver = "/usr/local/bin/chromedriver"
 
-
-# # Google Chrome
-# driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=chrome_driver)
+# Google Chrome
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
